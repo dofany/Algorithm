@@ -1,4 +1,4 @@
-package String;
+package wordstring;
 
 import java.util.Scanner;
 
