@@ -1,0 +1,6 @@
+#BOJ_Java ignore
+
+/.settings
+/bin
+/.classpath
+/.project
