@@ -37,3 +37,6 @@
   >4-2. MakeOne : 1로 만들기
   
   >4-3. OneTwoThree : 1,2,3 
+
+#5. 수학2)math2
+  >5-1. SmallNumSearch : 소수 찾기
