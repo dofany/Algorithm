@@ -40,4 +40,5 @@
 
 #5. 수학2)math2
   >5-1. SmallNumSearch : 소수 찾기(1978)
+  
   >5-2. SmallNum : 소수(2581)
