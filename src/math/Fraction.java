@@ -8,7 +8,7 @@ public class Fraction {
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
 		int x=0,y=0,z = 0;
-		for(int i = 0; i<1000; i++) {
+		for(int i = 0; ; i++) {
 			if(num>x && x+i>=num) {
 				if(i%2==0) {
 					y=i+1-(num-x);
