@@ -42,3 +42,5 @@
   >5-1. SmallNumSearch : 소수 찾기(1978)
   
   >5-2. SmallNum : 소수(2581)
+  
+  >5-3. SanggenNard : 상근날드(5543)
