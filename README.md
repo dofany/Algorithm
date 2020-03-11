@@ -44,3 +44,5 @@
   >5-2. SmallNum : 소수(2581)
   
   >5-3. SanggenNard : 상근날드(5543)
+  
+  >5-4. SmallNumCatch : 소수 구하기(1929)
