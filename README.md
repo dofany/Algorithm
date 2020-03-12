@@ -46,3 +46,7 @@
   >5-3. SanggenNard : 상근날드(5543)
   
   >5-4. SmallNumCatch : 소수 구하기(1929)
+  
+### 6. 스택)stack
+  >6-1. BaekjoonStack : 스택(10828)
+
