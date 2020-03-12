@@ -16,7 +16,7 @@ public class SmallNumCatch {
 			}
 			int tt2 = (int) Math.sqrt(i) + 1;
 			for (int j = 2; j < tt2; j++) {
-				if (i % j == 0) {
+				if (t1 % t2 == 0) {
 					check = 1;
 					break;
 				}
