@@ -17,10 +17,10 @@
   
   >1-8. WordStudy : 단어 공부(1157)
   
-### 2. 배열)array
+### 2. 배열 : array
   >2-1. Average : 평균은 넘겠지(4344)
   
-### 3. 수학1)math
+### 3. 수학1 : math
   >3-1. BeeHouse : 벌집(2292)
   
   >3-2. BreakEvenPoint : 손익분기점(1712)
@@ -33,14 +33,14 @@
   
   >3-5. FourSquare : 사분면 고르기(14681)
   
-### 4. 다이나믹 프로그래밍)dp
+### 4. 다이나믹 프로그래밍 : dp
   >4-1. Fibonacci : 피보나치(1003)
   
   >4-2. MakeOne : 1로 만들기(1463)
   
   >4-3. OneTwoThree : 1,2,3 더하기(9095)
 
-### 5. 수학2)math2
+### 5. 수학2 : math2
   >5-1. SmallNumSearch : 소수 찾기(1978)
   
   >5-2. SmallNum : 소수(2581)
@@ -49,9 +49,9 @@
   
   >5-4. SmallNumCatch : 소수 구하기(1929)
   
-### 6. 스택)stack
+### 6. 스택 : stack
   >6-1. BaekjoonStack : 스택(10828)
 
-### 7. 별찍기)star
+### 7. 별찍기 : star
   >7-1. Star_13 : 별찍기-13(2523)
 
