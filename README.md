@@ -85,5 +85,8 @@
  ### 9. 재귀함수 : recursion
   >9-1. Fibonacci_5 : 피보나치 수5(10870)
   
- ### 10. 해시 : Hashing
+ ### 10. 해시 : hashing
   >10-1. PhoneNum_Book : 전화번호 목록(5052)
+  
+ ### 11. 브루트포스 : bruteForce
+  >11-1. Big : 덩치(7568)
