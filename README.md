@@ -33,6 +33,10 @@
   
   >3-5. FourSquare : 사분면 고르기(14681)
   
+  >3-6. VicePresident : 부녀회장이 될테야(2775)
+  
+  >3-7. Fly_me_to_the_Alpha_Centauri : Fly me to the Alpha Centauri(1011) 
+  
 ### 4. 다이나믹 프로그래밍 : dp
   >4-1. Fibonacci : 피보나치(1003)
   
