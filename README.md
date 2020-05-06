@@ -53,6 +53,8 @@
   
   >5-4. SmallNumCatch : 소수 구하기(1929)
   
+  >5-5. Tri_Angle : 직각삼각형(4153)
+  
 ### 6. 스택 : stack
   >6-1. BaekjoonStack : 스택(10828)
   
