@@ -7,10 +7,8 @@ public class OneTwoThree {
 		Scanner sc = new Scanner(System.in);
 		int t = sc.nextInt();
 		int n;
-		int[] array = new int[11];
-		array[1] = 1;
-		array[2] = 2;
-		array[3] = 4;
+		int[] array = new int[t];
+
 		
 		for(int i = 0; i<t; i++) {
 			n = sc.nextInt();
