@@ -1,23 +1,34 @@
 package search;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Lan_Cutting {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int k = sc.nextInt();
-        int n = sc.nextInt();
-        int array[] = new int[k];
-        int sum = 0;
-        int avg = 0;
-        int result = 0;
+        long n = sc.nextLong();
+        long array[] = new long[k];
+        long max = 0;
         for(int i = 0; i<k; i++) {
             array[i] = sc.nextInt();
-            sum += array[i];
-            avg = sum / n;
-            result = avg-(avg%100);
+            max = Math.max(max,array[i]);
         }
+            long left = 1;
+            long right = max;
+            while(left <= right){
+                long mid = (left+right)/2;
+                long sum = 0;
+                for(int i =0; i<k; i++){
+                    sum += (array[i]/mid);
+                }
+                if(sum >= n){
+                    left = mid +1;
+                } else{
+                    right = mid -1;
+                }
+            }
+        System.out.print(right);
 
-        System.out.println(result);
     }
 }
