@@ -6,43 +6,38 @@ public class Statistics {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int total = 0;
-        int[] result = new int[4];
-        int[] array = new int[n];
-        int[] much_number = new int[8001];
+        double[] num = new double[n];
+        for (int i = 0; i < n; i++)
+            num[i] = sc.nextInt();
+            sc.close();
 
-        for(int i = 0; i<n; i++){
-            array[i] = sc.nextInt();
-            total += array[i];
-            much_number[array[i] + 4000]++;
-        }
-        int min = 0;
-        for(int i = 0; i<much_number.length; i++){
-            if(min<much_number[i]){
-                min = much_number[i];
+        double sum = 0;
+        for (double d : num)
+            sum += d;
+        System.out.println((int) Math.round(sum / n));
+        Arrays.sort(num);
+        System.out.println((int) num[n / 2]);
+
+        int[] freq = new int[8001];
+        for (double d : num) freq[(int) d + 4000]++;
+        int maxFrequency = 0;
+        int maxIndex = 0;
+        for (int i = 0; i < 8001; i++)
+            if (freq[i] > maxFrequency) maxFrequency = freq[i];
+        boolean twice = false;
+        for (int i = 0; i < 8001; i++) {
+            if (freq[i] == maxFrequency) {
+                if (twice) {
+                    maxIndex = i - 4000;
+                    break;
+                }
+                maxIndex = i - 4000;
+                twice = true;
             }
         }
-        int[] min2 = new int[2];
-        int j = 0;
-        for(int i = 0; i<much_number.length;i++){
-            if(min2[0] != 0 && min2[1] != 0)
-                break;
-            if(min == much_number[i]){
-                min2[j] = i;
-                j++;
-            }
-        }
-        if(min2[1]==0)
-            min2[1] = min2[0];
-        Arrays.sort(array);
-        result[0] = (int)Math.round((double)total /n);
-        result[1] = array[n/2];
-        result[2] = min2[1] - 4000;
-        result[3] = array[n-1] - array[0];
+        System.out.println(n == 1 ? (int) num[0] : maxIndex);
+        System.out.println((int) (num[n - 1] - num[0]));
 
-        System.out.println(result[0]);
-        System.out.println(result[1]);
-        System.out.println(result[2]);
-        System.out.println(result[3]);
+
     }
 }
